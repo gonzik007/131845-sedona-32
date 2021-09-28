@@ -48,9 +48,9 @@
         </header>
         <section class="catalog-products">
           <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title">Инфраструктура:</legend>
+          <form class="catalog-form" action="https://echo.htmlacademy.ru/" method="get">
+            <fieldset class="catalog-fieldset">
+              <legend class="catalog-legend">Инфраструктура:</legend>
               <label class="control">
                 <input class="visually-hidden control-input" type="checkbox" name="pool" checked>
                 <span class="control-mark"></span>
@@ -68,8 +68,8 @@
               </label>
             </fieldset>
 
-            <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title">Тип жилья:</legend>
+            <fieldset class="catalog-fieldset">
+              <legend class="catalog-legend">Тип жилья:</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -94,9 +94,8 @@
                 </li>
               </ul>
             </fieldset>
-
-            <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+            <fieldset class="catalog-fieldset">
+              <legend class="catalog-legend">Стоимость, ₽:</legend>
               <label class="catalog-filter-label">
                 <input class="catalog-filter-input" type="number" name="min-price" value="0">от
               </label>
@@ -112,7 +111,7 @@
           <h2 class="visually-hidden">Email</h2>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="subtitle-newsletter" for="newsletter-email">Подпишитесь на рассылку</label>
-          <p class="newsletter-text">Только полезная информация и никакого спама,<br>
+            <p class="newsletter-text">Только полезная информация и никакого спама,<br>
             честное бойскаутское!</p>
             <input class="newsletter-field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
             <button class="button newsletter-button" type="submit">Подписаться</button>
