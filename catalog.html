@@ -74,21 +74,21 @@
                   <label class="control">
                     <input class="visually-hidden control-input" type="radio" name="product-group" value="hotel" checked>
                     <span class="control-mark"></span>
-                <span class="control-label">Гостиница</span>
+                    <span class="control-label">Гостиница</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
                     <input class="visually-hidden control-input" type="radio" name="product-group" value="motel">
                     <span class="control-mark"></span>
-                <span class="control-label">Мотель</span>
+                    <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
                     <input class="visually-hidden control-input" type="radio" name="product-group" value="apartments">
                     <span class="control-mark"></span>
-                <span class="control-label">Апартаменты</span>
+                    <span class="control-label">Апартаменты</span>
                   </label>
                 </li>
               </ul>
@@ -108,7 +108,7 @@
         </section>
         <section class="sorting-product">
           <h2 class="visually-hidden">Сортировка товаров</h2>
-          <form class="sorting-type">
+          <form class="sorting-form">
             <label class="subtitle-sorting" for="sorting">Найдено гостиниц: 38</label>
             <select class="select-control" id="sorting" name="sorting">
               <option value="cheap">Сначала дешёвые</option>
@@ -117,17 +117,25 @@
             </select>
             <button class="visually-hidden" type="submit">Отсортировать продукты</button>
           </form>
-          <a href="#" class="button button-light">
-            <span class="visually-hidden">Показать карточки</span>
-          </a>
-          <a href="#" class="button">
-            <span class="visually-hidden">Показать карточку</span>
-          </a>
-          <a href="#" class="button button-dark">
-            <span class="visually-hidden">Показать списком</span>
-          </a>
+          <ul class="filter-button">
+            <li class="filter-button-item">
+              <a href="#" class="button button-light">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+            <li class="filter-button-item">
+              <a href="#" class="button">
+                <span class="visually-hidden">Показать карточку</span>
+              </a>
+            </li>
+            <li class="filter-button-item">
+              <a href="#" class="button button-dark">
+                <span class="visually-hidden">Показать списком</span>
+              </a>
+            </li>
+          </ul>>
         </section>
-        <section class="catalog-product">
+        <section class="catalog">
           <h2 class="visually-hidden">Список товаров</h2>
           <ul class="product-list">
             <li class="product-card">
@@ -139,8 +147,13 @@
               <span class="product-card-price">От 4000 ₽</span>
               <a href="#" class="product-card-button button">подробнее</a>
               <a href="#" class="product-card-button button">В избранное</a>
-              <img class="rating-card-image" src="" alt="рейтинг 4 из 5">
-              <span class="rating-card">Рейтинг: 8,5</span>
+              <div class="card-rating">
+                <img class="card-rating-image" src="" alt="рейтинг 4 из 5">
+                <img class="card-rating-image" src="" alt="">
+                <img class="card-rating-image" src="" alt="">
+                <img class="card-rating-image" src="" alt="">
+                <span class="card-rating-text">Рейтинг: 8,5</span>
+              </div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -151,8 +164,12 @@
               <span class="product-card-price">От 3000 ₽</span>
               <a href="#" class="product-card-button button">подробнее</a>
               <a href="#" class="product-card-button button">В избранное</a>
-              <img class="rating-card-image" src="" alt="рейтинг 3 из 5">
-              <span class="rating-card">Рейтинг: 8,9</span>
+              <div class="card-rating">
+                <img class="card-rating-image" src="" alt="рейтинг 3 из 5">
+                <img class="card-rating-image" src="" alt="">
+                <img class="card-rating-image" src="" alt="">
+                <span class="card-rating-text">Рейтинг: 8,9</span>
+              </div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -163,8 +180,11 @@
               <span class="product-card-price">От 2000 ₽</span>
               <a href="#" class="product-card-button button">подробнее</a>
               <a href="#" class="product-card-button button">В избранное</a>
-              <img class="rating-card-image" src="" alt="рейтинг 2 из 5">
-              <span class="rating-card">Рейтинг: 9,2</span>
+              <div class="card-rating">
+                <img class="card-rating-image" src="" alt="рейтинг 2 из 5">
+                <img class="card-rating-image" src="" alt="">
+                <span class="card-rating-text">Рейтинг: 9,2</span>
+              </div>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -175,8 +195,11 @@
               <span class="product-card-price">От 3000 ₽</span>
               <a href="#" class="product-card-button button">подробнее</a>
               <a href="#" class="product-card-button button">В избранное</a>
-              <img class="rating-card-image" src="" alt="рейтинг 2 из 5">
-              <span class="rating-card">Рейтинг: 9,2</span>
+              <div class="card-rating">
+                <img class="card-rating-image" src="" alt="рейтинг 2 из 5">
+                <img class="card-rating-image" src="" alt="">
+                <span class="card-rating-text">Рейтинг: 9,2</span>
+              </div>
             </li>
           </ul>
           <button class="button pagination-show-more" type="button">Загрузить еще</button>
