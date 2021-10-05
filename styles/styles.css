@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #E5E5E5;
+  color: #000000;
+}
+.page-header {
+  background-color: #FFFFFF;
+}
+.navigation-link {
+  color: inherit;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+.main-intro {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../img/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.newsletter {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../img/footer-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.filter-products {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../img/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
