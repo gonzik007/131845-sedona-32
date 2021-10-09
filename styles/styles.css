@@ -25,7 +25,7 @@ body {
 .navigation-link {
   color: inherit;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -33,14 +33,16 @@ body {
 .main-intro {
   color: #000000;
   background-color: #FFFFFF;
-  background-image: url("../img/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+  background-image: url("../img/divider.svg"), url("../img/index-background.jpg");
+  background-repeat: no-repeat, no-repeat;
   text-align: center;
+  background-position: bottom;
 }
 .newsletter {
-  color: #000000;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color:#000000 ;
   background-image: url("../img/footer-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -53,4 +55,97 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
+}
+.page-slogan-subtitle {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.page-slogan-text {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+.advantages-wrapper {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background-color: #83B3D3;
+}
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages-list {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.appointment {
+  text-align: center;
+  background-color:#FFFFFF;
+}
+.appointment-slogan {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.appointment-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+.button-appointment {
+  color: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.subtitle-newsletter {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.newsletter-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+.newsletter-field {
+  width: 600px;
+  height: 60px;
+}
+.newsletter-button {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #83B3D3;
+  color: #FFFFFF;
+}
+.page-footer {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.footer-contacts-address-phone {
+  color: #000000;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.main-inner {
+  color: #FFFFFF;
+}
+.inner-header-title {
+  color: #FFFFFF;
+  background-color: #000000;
 }
